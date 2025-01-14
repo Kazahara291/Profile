@@ -1,0 +1,16 @@
+@use "_global.scss" as g;
+
+.mainvisual {
+    margin-bottom: 80px;
+}
+
+.mainvisual img {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+    @include g.breakpoint ( pc-wide ) {
+        height: calc(100vh - 60px);
+    }
+}
+
