@@ -3,6 +3,7 @@
 .bycycle ul {
    display: flex;
    justify-content: space-between;
+   flex-direction: row;
    @include g.breakpoint( pc-wide ) {
             flex-direction: column;
         }

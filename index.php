@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 <main>
-  <div id="mainvisual">
+  <div id="mainvisual" class="mainvisual">
     <img src="<?php echo esc_url(get_theme_file_uri('img/mainvisual.jpg')); ?>" alt="テキストテキストテキスト">
   </div>
 
-  <section id="about" class="wrapper">
+  <section id="about" class="about wrapper">
     <h2 class="section-title">About</h2>
     <div class="content">
       <img src="<?php echo esc_url(get_theme_file_uri('img/about.jpg')); ?>" alt="テキストテキストテキスト">
@@ -20,7 +20,7 @@
     </div>
   </section>
 
-  <section id="bicycle" class="wrapper">
+  <section id="bicycle" class="bicycle wrapper">
     <h2 class="section-title">Bicycle</h2>
     <?php if (have_posts()): ?>
       <ul>

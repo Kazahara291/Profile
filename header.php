@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header id="header" class="wrapper">
+  <header id="header" class="header wrapper">
     <?php $tag = (is_home() || is_front_page()) ? 'h1' : 'div'; ?>
     <<?php echo $tag; ?> class="site-title">
       <a href="<?php echo esc_url(home_url()); ?>">
