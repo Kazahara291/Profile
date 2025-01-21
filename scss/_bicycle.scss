@@ -1,22 +1,18 @@
 @use "_global.scss" as g;
 
-.bycycle ul {
+.bicycle  ul {
    display: flex;
-   flex-wrap: wrap;
+   //flex-wrap: wrap;
    justify-content: space-between;
    @include g.breakpoint( pc-wide ) {
             flex-direction: column;
         }
 }
 
-.bycycle li {
+.bicycle li {
     width: 32%;
     @include g.breakpoint( pc-wide ) {
             width: 100%;
             margin-bottom: 30px;
         }
-}
-
-.bycycle {
-    background-color: black;
 }
