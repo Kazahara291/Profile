@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <main>
   <div id="mainvisual" class="mainvisual">
     <img src="<?php echo esc_url(get_theme_file_uri('img/mainvisual.jpg')); ?>" alt="テキストテキストテキスト">
@@ -19,7 +18,6 @@
       </div>
     </div>
   </section>
-
   <section id="bicycle" class="bicycle wrapper">
     <h2 class="section-title">Bicycle</h2>
     <?php if (have_posts()): ?>
@@ -37,5 +35,4 @@
     <?php endif; ?>
   </section>
 </main>
-
 <?php get_footer(); ?>

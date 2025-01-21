@@ -2,8 +2,8 @@
 
 .bycycle ul {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
-   flex-direction: row;
    @include g.breakpoint( pc-wide ) {
             flex-direction: column;
         }
@@ -15,4 +15,8 @@
             width: 100%;
             margin-bottom: 30px;
         }
+}
+
+.bycycle {
+    background-color: black;
 }

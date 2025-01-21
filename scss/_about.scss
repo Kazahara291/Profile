@@ -1,6 +1,6 @@
 @use "_global.scss" as g;
 
-#about .content {
+.about .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 
-#about img {
+.about img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -21,6 +21,6 @@
 }
 
 
-#about .text {
+.about .text {
     text-align: left;
 }
